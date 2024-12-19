@@ -33,5 +33,8 @@ namespace Nodes
         }
 
         public abstract double GetNode(int i);
+        public abstract double this[int i] {
+            get;
+        }
     }
 }
